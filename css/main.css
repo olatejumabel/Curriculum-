@@ -657,7 +657,6 @@ footer .menu li a:hover {
 
 #copyright {
   background-color: #1d1e20;
-  padding: 20px 0 10px;
   color: #fff;
 }
 
@@ -668,6 +667,11 @@ footer .menu li a:hover {
 
 #copyright p a {
   color: #fff;
+}
+
+.design{
+  float: right;
+  padding: 0px;
 }
 
 #copyright p a:hover {
@@ -1623,6 +1627,12 @@ nav#menu span.fa.fa-bars:hover {
 .service-box {
   margin-top: 15px;
   margin-bottom: 15px;
+  
+}
+
+.bb :hover {
+  transform: scaleX(1.1) scaleY(1.1)!important;
+  /* border: 1px solid #EB586F; */
 }
 
 .service-box .service-icon {
@@ -2919,6 +2929,17 @@ nav#menu span.fa.fa-bars:hover {
 #dark-slider .carousel-control {
   color: #ccc;
   opacity: 0.8;
+}
+.drk:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.6;
 }
 
 .text-primary {
